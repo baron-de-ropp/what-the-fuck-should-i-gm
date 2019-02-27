@@ -1,0 +1,14 @@
+{% extends "_layout.html" %}
+{% block content %}
+<p>{{ encounter.description }}</p>
+<a href="{{ url_for("encounter", terrain="arctic") }}">Give me a fucking arctic encounter ...</a>
+<a href="{{ url_for("encounter", terrain="coastal") }}">How about a fucking coastal encounter...</a>
+<a href="{{ url_for("encounter", terrain="desert") }}">I want a fucking desert encounter...</a>
+<a href="{{ url_for("encounter", terrain="forest") }}">What's in the fucking forest?</a>
+<a href="{{ url_for("encounter", terrain="grassland") }}">This is lame. Give me a fucking grassland encounter.</a>
+<a href="{{ url_for("encounter", terrain="hills") }}">The fucking hills are alive with the sound of what?</a>
+<a href="{{ url_for("encounter", terrain="mountain") }}">mountian</a>
+<a href="{{ url_for("encounter", terrain="swamp") }}">Tswamp</a>
+<a href="{{ url_for("encounter", terrain="underdark") }}">underdark</a>
+<a href="{{ url_for("encounter", terrain="underwater") }}">underwater</a>
+{% endblock %}

@@ -12,10 +12,7 @@ body{
 a{
     font-size: 20px;
     color: #000;
+    display: block;
+    line-height: 20px;
+    margin-bottom: 20px;
 }
-
-/* @media (max-width: 400px){
-    body{
-
-    }
-} */
